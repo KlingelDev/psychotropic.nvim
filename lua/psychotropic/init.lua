@@ -49,6 +49,8 @@ local alarm = "#f9bc05"
 local alarmred = "#fe1808"
 local colorcolumn = "#0F0F0F"
 
+local M = {}
+
 M.style = function()
   -- Basics
   highlight(0, "Normal", { bg = bg, fg = white })
