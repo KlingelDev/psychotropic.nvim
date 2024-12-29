@@ -86,3 +86,6 @@ M.style = function()
   highlight(0, "Underlined", { fg=white, unterline=true })
   highlight(0, "Error", { bg=alarmred, fg=white, bold=1 })
   highlight(0, "Todo", { bg=alarm, fg=black, bold=1 })
+end
+
+return M
