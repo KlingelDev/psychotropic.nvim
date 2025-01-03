@@ -1,6 +1,6 @@
 " Dark & colorful theme for neovim.
 "
-" URL:     github.com/klingeldev/psychotropic
+" URL:     github.com/klingeldev/psychotropic.nvim
 " License: MIT (https://opensource.org/licenses/MIT)
 
 if has('nvim') && !has('nvim-0.9')
@@ -21,15 +21,15 @@ let g:colors_name='psychotropic'
 " Enable terminal true-color support.
 set termguicolors
 
-let g:psychotropicCursorColor = get(g:, 'moonflyCursorColor', v:false)
-let g:psychotropicItalics = get(g:, 'moonflyItalics', v:true)
-let g:psychotropicNormalFloat = get(g:, 'moonflyNormalFloat', v:false)
-let g:psychotropicTerminalColors = get(g:, 'moonflyTerminalColors', v:true)
-let g:psychotropicTransparent = get(g:, 'moonflyTransparent', v:false)
-let g:psychotropicUndercurls = get(g:, 'moonflyUndercurls', v:true)
-let g:psychotropicUnderlineMatchParen = get(g:, 'moonflyUnderlineMatchParen', v:false)
-let g:psychotropicVirtualTextColor =  get(g:, 'moonflyVirtualTextColor', v:false)
-let g:psychotropicWinSeparator = get(g:, 'moonflyWinSeparator', 1)
+let g:psychotropicCursorColor = get(g:, 'psychotropicCursorColor', v:false)
+let g:psychotropicItalics = get(g:, 'psychotropicItalics', v:true)
+let g:psychotropicNormalFloat = get(g:, 'psychotropicNormalFloat', v:false)
+let g:psychotropicTerminalColors = get(g:, 'psychotropicTerminalColors', v:true)
+let g:psychotropicTransparent = get(g:, 'psychotropicTransparent', v:false)
+let g:psychotropicUndercurls = get(g:, 'psychotropicUndercurls', v:true)
+let g:psychotropicUnderlineMatchParen = get(g:, 'psychotropicUnderlineMatchParen', v:false)
+let g:psychotropicVirtualTextColor =  get(g:, 'psychotropicVirtualTextColor', v:false)
+let g:psychotropicWinSeparator = get(g:, 'psychotropicWinSeparator', 1)
 
 if has('nvim')
     lua require("psychotropic").style()
