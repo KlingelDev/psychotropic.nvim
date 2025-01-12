@@ -61,6 +61,7 @@ M.style = function()
   highlight(0, "ModeMsg", { fg = sand })
   highlight(0, "Comment", { fg = grey62, italic = true })
 
+  highlight(0, "Pmenu", { bg = bg, fg = white })
   -- Basic syntax highlighting
   highlight(0, "Constant", { fg=coral })
   highlight(0, "String", { fg=khaki })
