@@ -1,7 +1,7 @@
 local g = vim.g
 local highlight = vim.api.nvim_set_hl
 
-local black = "#131313"
+local black = "#101010"
 local white = "#F6FAFA"
 local bg = black
 
@@ -51,7 +51,7 @@ local sand = "#EFDB8A"
 local ochre = "#eac290"
 local alarm = "#f9bc05"
 local alarmred = "#fe1808"
-local colorcolumn = "#0F0F0F"
+local colorcolumn = "#0A0A0A"
 
 local M = {}
 
@@ -61,6 +61,7 @@ M.style = function()
   highlight(0, "ModeMsg", { fg = sand })
   highlight(0, "Comment", { fg = grey62, italic = true })
 
+  highlight(0, "Pmenu", { bg = bg, fg = white })
   -- Basic syntax highlighting
   highlight(0, "Constant", { fg=coral })
   highlight(0, "String", { fg=khaki })
