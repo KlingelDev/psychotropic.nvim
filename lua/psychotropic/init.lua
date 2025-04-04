@@ -371,7 +371,7 @@ M.style = function()
   highlight(0, "pythonInclude", {})
   highlight(0, "pythonImport", {})
   highlight(0, "pythonRaiseFromStatement", {})
-  highlight(0, "pythonOperator", {fg=lightblue, bold=1})
+  highlight(0, "pythonOperator", {fg=lightgreen, bold=1})
   highlight(0, "pythonNumber", {})
   highlight(0, "pythonHexNumber", {})
   highlight(0, "pythonOctNumber", {})
@@ -418,6 +418,8 @@ M.style = function()
   highlight(0, "pythonHexError", {})
   highlight(0, "pythonBinError", {})
   highlight(0, "pythonNumberError", {})
+  highlight(0, "pythonMatch", { fg=lime, bold=1})
+  highlight(0, "pythonCase", { fg=lightgreen, bold=1})
 
   -- Lualine
 
